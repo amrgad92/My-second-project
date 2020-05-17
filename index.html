@@ -5,23 +5,34 @@
     <link rel="stylesheet" href="index_style.css">
   </head>
   <body>
-    <div id="home" class="parent">
-      <nav>
-        <div class="nav-child">
-          <img class="nav-img" src="image/1200px-Harley-Davidson_logo.svg.png">
-        </div>
-  
-        <div class="nav-child">
-          <ul>
-            <a href="#home"><li id="home">Home</li></a>
-            <a href="#about-us"><li>About us</li></a>
-            <a href="#Our-products"><li>Our products</li></a>
-            <a href="#Contact Us"><li>Contact Us</li></a>
-          </ul>
-        </div>
-      </nav>
-      </>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+      <img class="nav-img" src="image/1200px-Harley-Davidson_logo.svg.png">
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 
+          <li class="nav-item active">
+            <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="about" class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="product" class="nav-link" href="#">Our products <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a id="contact" class="nav-link" href="#">Contact us <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="home" class="parent">
       <div class="child">
         <img class="amr ahmed" src="image/harley-davidson-vector-logo-png-7.png"/>
         <form name="register">
@@ -33,7 +44,7 @@
           <label id="a">
             password
           </label>
-          <input id="a" class="form-control w-50 bg-link border-dark my-2" type="password" name="username">
+          <input id="a" class="form-control w-50 bg-transparet border-dark my-2" type="password" name="username">
           <br>
           <button class="btn border-dark my-2">sign in</button>
           <br>
@@ -45,23 +56,27 @@
       </div>
     </div>
 
-    <div id="about-us" class="parent2">
+    <div id="section2" class="parent2 py-3">
       <div class="child2">
         <h1 id="about us">
           About us
         </h1>
         <img class="logo" src="image/harley.jpg"/>
-        <h6>
-          In 1903, out of a small shed in Milwaukee, Wisconsin, four young men lit a cultural wildfire that would grow and spread across geographies and generations.
-          <br> Their innovation and imagination for what was possible on two wheels sparked a transportation revolution and a motorcycle culture that would make Harley-Davidson one of the most recognized and revered brands in the world.
-        </h6>
         <div class="arrow">
-        <img width="40px" height="40px" src="image/arrow-down.gif"/>
-        </div>
-
+          <img width="40px" height="40px" src="image/arrow-down.gif"/>
+          </div>
+          <h5>Click here</h5>
+          <div class="text">
+            <h6>
+              In 1903, out of a small shed in Milwaukee, Wisconsin, four young men lit a cultural wildfire that would grow and spread across geographies and generations.
+              <br> Their innovation and imagination for what was possible on two wheels sparked a transportation revolution and a motorcycle culture that would make Harley-Davidson one of the most recognized and revered brands in the world.
+            </h6>
+          </div>
       </div>
+
     </div>
-    <div class="moto-parent">
+
+    <div  class="moto-parent py-3">
       <div class="moto-child">
         <div class="moto-one">
           <img class="magic" src="image/our-team-2.jpg">
@@ -71,7 +86,7 @@
           <a href="https://www.facebook.com/harley-davidson/" target="_blank"><img width="40px" height="40px" src="image/facebook-circled-shake.gif"/></a>
           <a href="https://twitter.com/harleydavidson" target="_blank"><img width="40px" height="40px" src="image/twit-flying.gif"/></a>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt tempora ipsum consequuntur
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt
           </p>
         </div>
       </div>
@@ -85,8 +100,7 @@
           <a href="https://www.facebook.com/harley-davidson/" target="_blank"><img width="40px" height="40px" src="image/facebook-circled-shake.gif"/></a>
           <a href="https://twitter.com/harleydavidson" target="_blank"><img width="40px" height="40px" src="image/twit-flying.gif"/></a>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt tempora ipsum consequuntur
-          </p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt          </p>
         </div>
       </div>
       <div class="moto-child">
@@ -98,7 +112,7 @@
           <a href="https://www.facebook.com/harley-davidson/" target="_blank"><img width="40px" height="40px" src="image/facebook-circled-shake.gif"/></a>
           <a href="https://twitter.com/harleydavidson" target="_blank"><img width="40px" height="40px" src="image/twit-flying.gif"/></a>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt tempora ipsum consequuntur          
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt
           </p>
         </div>
       </div>
@@ -111,13 +125,13 @@
           <a href="https://www.facebook.com/harley-davidson/" target="_blank"><img width="40px" height="40px" src="image/facebook-circled-shake.gif"/></a>
           <a href="https://twitter.com/harleydavidson" target="_blank"><img width="40px" height="40px" src="image/twit-flying.gif"/></a>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt tempora ipsum consequuntur
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus minus sunt
           </p>
         </div>
       </div>
     </div>
 
-    <div id="Our-products" class="parent3">
+    <div id="section3" class="parent3">
       <div class="child3">
         <h1 id="Our products">
           Our products
@@ -171,7 +185,7 @@
       </div>
     </div>
 
-    <div id="Contact Us" class="parent4">
+    <div id="section4" class="parent4">
       <div class="child4">
         <img width="40px" height="40px" src="image/bookmark.gif"/>
         <h1 id="Contact us">
@@ -194,8 +208,7 @@
         </p>
       </div>
       <div class="child4">
-        <a href="#home"><img style="background-color: black; transform: rotate(180deg);" width="40px" height="40px" src="image/arrow-down.gif"/></a>
-        <br>
+
         <h1>
           follow us
         </h1>
@@ -214,9 +227,13 @@
         <img class="settings" src="image/1200px-Harley-Davidson_logo.svg.png"/>
       </div>
     </div>
+    <div id="arrowjs">
+      <img style="background-color: black; transform: rotate(180deg);" width="40px" height="40px" src="image/arrow-down.gif"/>
+    </div>
 
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
